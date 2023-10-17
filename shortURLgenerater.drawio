@@ -1,9 +1,92 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T15:16:25.298Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46" version="21.7.5" etag="tBIaqncsDtj4CX5xf0Lt" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T16:00:15.442Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46" etag="MPE8LOdgBFrgjJYfLUr-" version="21.7.5" type="github">
   <diagram name="第 1 页" id="yhQL0ZXj7WdiP-UB2Rmd">
-    <mxGraphModel>
+    <mxGraphModel dx="1741" dy="901" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ALRGc1wf_-TK1ACQYuHE-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ALRGc1wf_-TK1ACQYuHE-1" target="ALRGc1wf_-TK1ACQYuHE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ALRGc1wf_-TK1ACQYuHE-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;访问短地址&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;a style=&quot;text-decoration-line: none; border-bottom: 1px solid rgb(128, 128, 128); cursor: pointer; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: medium; text-align: start;&quot; data-za-detail-view-id=&quot;1043&quot; rel=&quot;nofollow noreferrer&quot; target=&quot;_blank&quot; class=&quot;external&quot; href=&quot;https://link.zhihu.com/?target=https%3A//t.cn/RuPKzRW&quot;&gt;https://&lt;span class=&quot;visible&quot;&gt;t.cn/RuPKzRW&lt;/span&gt;&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="91" y="43" width="258" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="ALRGc1wf_-TK1ACQYuHE-2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="57" y="151" as="sourcePoint" />
+            <mxPoint x="737" y="151" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ALRGc1wf_-TK1ACQYuHE-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Client&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-42" y="78" width="71" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="ALRGc1wf_-TK1ACQYuHE-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ALRGc1wf_-TK1ACQYuHE-4" target="ALRGc1wf_-TK1ACQYuHE-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ALRGc1wf_-TK1ACQYuHE-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;短链接服务器：t.cn&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="91" y="175" width="258" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ALRGc1wf_-TK1ACQYuHE-5" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;收到携带此唯一标识的get请求后，立刻开始解析&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="186" width="421" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="ALRGc1wf_-TK1ACQYuHE-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ALRGc1wf_-TK1ACQYuHE-6" target="ALRGc1wf_-TK1ACQYuHE-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ALRGc1wf_-TK1ACQYuHE-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ALRGc1wf_-TK1ACQYuHE-6" target="ALRGc1wf_-TK1ACQYuHE-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ALRGc1wf_-TK1ACQYuHE-6" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;DB&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="91" y="399" width="258" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="ALRGc1wf_-TK1ACQYuHE-8" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;为了抗住发号流量，其实可以考虑采用多cell的发号方式，比如单双号发号器，再比如1-1000的倍数，都各自安排发号器&lt;/span&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="638" y="414" width="352" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="ALRGc1wf_-TK1ACQYuHE-9" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;采用的是26+26+10=62进制编码，此编码就是唯一的网址id&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="382" y="78" width="530" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="ALRGc1wf_-TK1ACQYuHE-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="ALRGc1wf_-TK1ACQYuHE-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="357" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ALRGc1wf_-TK1ACQYuHE-11" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;KV缓存集群-长到短映射&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="91" y="277" width="258" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ALRGc1wf_-TK1ACQYuHE-12" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;为了实现优雅的1长对1短的，采取的一个空间换空间的方式，可以用打折的方式，每个短地址都只在KV缓存里存在一个小时，每次被访问都将其过期时间延长到1小时&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="677" y="314" width="318" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="ALRGc1wf_-TK1ACQYuHE-18" value="未能找到长地址缓存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="252.5" y="363" width="117" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ALRGc1wf_-TK1ACQYuHE-20" value="请求解析&lt;a style=&quot;border-bottom: 1px solid rgb(128, 128, 128); text-decoration-line: none; cursor: pointer; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: medium; text-align: start;&quot; data-za-detail-view-id=&quot;1043&quot; rel=&quot;nofollow noreferrer&quot; target=&quot;_blank&quot; class=&quot;external&quot; href=&quot;https://link.zhihu.com/?target=https%3A//t.cn/RuPKzRW&quot;&gt;RuPKzRW&lt;/a&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="239" width="222" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ALRGc1wf_-TK1ACQYuHE-23" value="找到长地址，返回" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="389" y="249" width="117" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ALRGc1wf_-TK1ACQYuHE-24" value="判断是否高于max_edge,高于则说明不存在此地址" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="244" y="412.5" width="99.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ALRGc1wf_-TK1ACQYuHE-26" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;发号器集群&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-27" y="541" width="182" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ALRGc1wf_-TK1ACQYuHE-29" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;发号器集群&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="293" y="541" width="182" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ALRGc1wf_-TK1ACQYuHE-31" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;发号器集群&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="303" y="551" width="182" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ALRGc1wf_-TK1ACQYuHE-32" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;MySQL分片集群&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="313" y="561" width="182" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ALRGc1wf_-TK1ACQYuHE-33" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;KV缓存集群-长到短映射&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="101" y="287" width="258" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ALRGc1wf_-TK1ACQYuHE-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ALRGc1wf_-TK1ACQYuHE-34" target="ALRGc1wf_-TK1ACQYuHE-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ALRGc1wf_-TK1ACQYuHE-34" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;KV缓存集群-长到短映射&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="111" y="297" width="258" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
