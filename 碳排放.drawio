@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2024-02-27T12:41:47.923Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" version="23.1.7" etag="2-edgamWHpIw7HIeY2eV" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-27T15:05:01.976Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="8xt4pTcX1XbzUumlZXju" version="23.1.7" type="github">
   <diagram name="第 1 页" id="xCruYwVzztO8rrpMRHSy">
-    <mxGraphModel>
+    <mxGraphModel dx="1418" dy="817" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="j3AWHV1HB8_Tbn3RLML--14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="j3AWHV1HB8_Tbn3RLML--1" target="j3AWHV1HB8_Tbn3RLML--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j3AWHV1HB8_Tbn3RLML--15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="j3AWHV1HB8_Tbn3RLML--1" target="j3AWHV1HB8_Tbn3RLML--3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j3AWHV1HB8_Tbn3RLML--16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="j3AWHV1HB8_Tbn3RLML--1" target="j3AWHV1HB8_Tbn3RLML--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j3AWHV1HB8_Tbn3RLML--17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="j3AWHV1HB8_Tbn3RLML--1" target="j3AWHV1HB8_Tbn3RLML--5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j3AWHV1HB8_Tbn3RLML--1" value="1吨水泥" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=22;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="411" width="120" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="j3AWHV1HB8_Tbn3RLML--2" value="1.1t CO&lt;sub&gt;2&lt;/sub&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=22;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="404" y="274" width="120" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="j3AWHV1HB8_Tbn3RLML--3" value="0.86kg SO&lt;sub&gt;3&lt;/sub&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=22;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="404" y="365" width="120" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="j3AWHV1HB8_Tbn3RLML--4" value="1.75kg NO&lt;sub&gt;x&lt;/sub&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=22;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="404" y="456" width="120" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="j3AWHV1HB8_Tbn3RLML--5" value="10kg 粉尘" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=22;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="404" y="547" width="120" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="j3AWHV1HB8_Tbn3RLML--21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="j3AWHV1HB8_Tbn3RLML--13" target="j3AWHV1HB8_Tbn3RLML--1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j3AWHV1HB8_Tbn3RLML--13" value="90kWh 电力" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=22;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="256" width="120" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="j3AWHV1HB8_Tbn3RLML--18" value="排放" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="252" y="409" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j3AWHV1HB8_Tbn3RLML--22" value="消耗" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="120" y="345" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
