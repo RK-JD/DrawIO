@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="第 1 页" id="lfJFgyUHGgr_xkrEM4PF">
-    <mxGraphModel dx="2049" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2868" dy="1682" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -141,7 +141,7 @@
           <mxGeometry x="652" y="399" width="522" height="391" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-59" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;将在代码中寻找的答案&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="2385" y="310" width="198" height="34" as="geometry" />
+          <mxGeometry x="2400" y="901" width="198" height="34" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-61" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="1601" width="153" height="741" as="geometry" />
@@ -275,212 +275,221 @@
           <mxGeometry x="138.5" y="2289" width="76" height="44" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-125" value="自动化长势&lt;font color=&quot;#ff0000&quot;&gt;新&lt;/font&gt;方案" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=26;" vertex="1" parent="1">
-          <mxGeometry x="1772.25" y="279" width="232.5" height="30" as="geometry" />
+          <mxGeometry x="1787.25" y="852" width="232.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-126" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1602" y="346" width="153" height="890" as="geometry" />
+          <mxGeometry x="1617" y="919" width="153" height="890" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-128" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1812" y="346" width="153" height="888" as="geometry" />
+          <mxGeometry x="1827" y="919" width="153" height="888" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-129" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" vertex="1" parent="1">
-          <mxGeometry x="2022" y="349" width="153" height="881" as="geometry" />
+          <mxGeometry x="2037" y="922" width="153" height="881" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-130" value="农艺" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1648.5" y="362" width="60" height="30" as="geometry" />
+          <mxGeometry x="1663.5" y="935" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-131" value="研究院" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1858.5" y="362" width="60" height="30" as="geometry" />
+          <mxGeometry x="1873.5" y="935" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-132" value="GIS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="2068.5" y="362" width="60" height="30" as="geometry" />
+          <mxGeometry x="2083.5" y="935" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-163" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#d4ff00;" vertex="1" parent="1">
-          <mxGeometry x="2222" y="343" width="71" height="737" as="geometry" />
+          <mxGeometry x="2237" y="916" width="71" height="737" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-164" value="OSS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="2227.5" y="702.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="2242.5" y="1275.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.008;exitY=0.112;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="Aizblv3qcIen2mevFITz-165" target="Aizblv3qcIen2mevFITz-167">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1588.5299999999995" y="546.4499999999994" as="sourcePoint" />
-            <mxPoint x="1888.5299999999995" y="503.95" as="targetPoint" />
+            <mxPoint x="1603.5299999999995" y="1119.4499999999994" as="sourcePoint" />
+            <mxPoint x="1903.5299999999995" y="1076.95" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1888" y="432" />
+              <mxPoint x="1903" y="1005" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-165" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;MinIO&lt;/font&gt;&lt;/b&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;存储无人机/卫星影像&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d4ff00;" vertex="1" parent="1">
-          <mxGeometry x="1516" y="349" width="53.5" height="742" as="geometry" />
+          <mxGeometry x="1531" y="922" width="53.5" height="742" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aizblv3qcIen2mevFITz-166" target="Aizblv3qcIen2mevFITz-167">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-166" value="发起NDVI算法生成" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1611.75" y="492" width="133.5" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Aizblv3qcIen2mevFITz-176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aizblv3qcIen2mevFITz-167" target="Aizblv3qcIen2mevFITz-175">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="1626.75" y="1065" width="133.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-167" value="生成NDVI影像" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1821.75" y="492" width="133.5" height="60" as="geometry" />
+          <mxGeometry x="1836.75" y="1065" width="133.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.013;entryY=0.242;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Aizblv3qcIen2mevFITz-167" target="Aizblv3qcIen2mevFITz-163">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-172" value="存入阿里云" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2059" y="492" width="89" height="30" as="geometry" />
+          <mxGeometry x="2074" y="1065" width="89" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-173" value="拉取" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1892" y="434" width="60" height="30" as="geometry" />
+          <mxGeometry x="1907" y="1007" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-175" value="确认生成完毕&lt;div&gt;准备同步到文件DB&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1611.75" y="574" width="133.5" height="60" as="geometry" />
+          <mxGeometry x="1626.75" y="1147" width="133.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-180" value="rclone命令" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1608" y="651" width="60" height="30" as="geometry" />
+          <mxGeometry x="1623" y="1224" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1.002;entryY=0.449;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Aizblv3qcIen2mevFITz-175" target="Aizblv3qcIen2mevFITz-165">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1569.5" y="711.24" as="sourcePoint" />
-            <mxPoint x="2221" y="711.24" as="targetPoint" />
+            <mxPoint x="1584.5" y="1284.24" as="sourcePoint" />
+            <mxPoint x="2236" y="1284.24" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.028;entryY=0.488;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2222" y="719.9399999999999" as="sourcePoint" />
-            <mxPoint x="1570.998" y="719.536" as="targetPoint" />
+            <mxPoint x="2237" y="1292.94" as="sourcePoint" />
+            <mxPoint x="1585.998" y="1292.536" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-185" value="rclone拉取NDVI影像" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1858.5" y="681" width="60" height="30" as="geometry" />
+          <mxGeometry x="1873.5" y="1254" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aizblv3qcIen2mevFITz-186" target="Aizblv3qcIen2mevFITz-188">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Aizblv3qcIen2mevFITz-186" value="NDVI同步完成" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1611.75" y="739" width="133.5" height="60" as="geometry" />
+        <mxCell id="Aizblv3qcIen2mevFITz-186" value="NDVI同步完成" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#31d204;" vertex="1" parent="1">
+          <mxGeometry x="1626.75" y="1312" width="133.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-187" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.566;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Aizblv3qcIen2mevFITz-165" target="Aizblv3qcIen2mevFITz-186">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1569.5" y="768" as="sourcePoint" />
-            <mxPoint x="1619.5" y="718" as="targetPoint" />
+            <mxPoint x="1584.5" y="1341" as="sourcePoint" />
+            <mxPoint x="1634.5" y="1291" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-194" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aizblv3qcIen2mevFITz-188" target="Aizblv3qcIen2mevFITz-190">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1745" y="906" />
+              <mxPoint x="1760" y="1479" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-188" value="智农云获取种植信息&lt;div&gt;GIS里获取矢量数据&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1611.75" y="826" width="133.5" height="147" as="geometry" />
+          <mxGeometry x="1626.75" y="1399" width="133.5" height="147" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-190" value="长势算法&lt;div&gt;生成长势影像&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1821.75" y="876" width="133.5" height="60" as="geometry" />
+          <mxGeometry x="1836.75" y="1449" width="133.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-193" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.005;entryY=0.204;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="Aizblv3qcIen2mevFITz-197" target="Aizblv3qcIen2mevFITz-188">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1830" y="791" as="sourcePoint" />
-            <mxPoint x="1880" y="741" as="targetPoint" />
+            <mxPoint x="1845" y="1364" as="sourcePoint" />
+            <mxPoint x="1895" y="1314" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-196" value="查询地理矢量信息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1858.5" y="821" width="60" height="30" as="geometry" />
+          <mxGeometry x="1873.5" y="1394" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-197" value="位置信息服务" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="2036.75" y="826" width="133.5" height="60" as="geometry" />
+          <mxGeometry x="2051.75" y="1399" width="133.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.027;entryY=0.764;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Aizblv3qcIen2mevFITz-190" target="Aizblv3qcIen2mevFITz-163">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-199" value="存入阿里云" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2065" y="902" width="77" height="30" as="geometry" />
+          <mxGeometry x="2080" y="1475" width="77" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-200" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.021;exitY=0.813;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2220.509" y="948.181" as="sourcePoint" />
-            <mxPoint x="1745.25" y="948" as="targetPoint" />
+            <mxPoint x="2235.509" y="1521.181" as="sourcePoint" />
+            <mxPoint x="1760.25" y="1521" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-201" value="上传后回报农艺" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2058.5" y="947" width="90" height="30" as="geometry" />
+          <mxGeometry x="2073.5" y="1520" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1.017;entryY=0.868;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Aizblv3qcIen2mevFITz-188" target="Aizblv3qcIen2mevFITz-165">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-203" value="rclone命令" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1606" y="968" width="60" height="30" as="geometry" />
+          <mxGeometry x="1621" y="1541" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-204" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1571" y="1022" as="sourcePoint" />
-            <mxPoint x="2222" y="1022" as="targetPoint" />
+            <mxPoint x="1586" y="1585.04" as="sourcePoint" />
+            <mxPoint x="2237" y="1585.04" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-206" value="rclone拉取长势影像" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1858" y="989" width="60" height="30" as="geometry" />
+          <mxGeometry x="1873" y="1552.04" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-211" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aizblv3qcIen2mevFITz-207" target="Aizblv3qcIen2mevFITz-210">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Aizblv3qcIen2mevFITz-207" value="长势影像同步完成" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1611.25" y="1035" width="133.5" height="60" as="geometry" />
+        <mxCell id="Aizblv3qcIen2mevFITz-207" value="长势影像同步完成" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#31d204;" vertex="1" parent="1">
+          <mxGeometry x="1626.25" y="1608" width="133.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-208" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.566;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="Aizblv3qcIen2mevFITz-207">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1569.5" y="1065" as="sourcePoint" />
-            <mxPoint x="1619" y="1014" as="targetPoint" />
+            <mxPoint x="1584.5" y="1638" as="sourcePoint" />
+            <mxPoint x="1634" y="1587" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-220" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aizblv3qcIen2mevFITz-210" target="Aizblv3qcIen2mevFITz-218">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-210" value="影像渲染" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="2036.75" y="1035" width="133.5" height="60" as="geometry" />
+          <mxGeometry x="2051.75" y="1608" width="133.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-212" value="请求影像发布" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1846.75" y="1037" width="83.5" height="30" as="geometry" />
+          <mxGeometry x="1861.75" y="1610" width="83.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-213" value="回调" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1558" y="739" width="60" height="30" as="geometry" />
+          <mxGeometry x="1573" y="1312" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-214" value="回调" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1558" y="1037" width="60" height="30" as="geometry" />
+          <mxGeometry x="1573" y="1610" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-216" value="&lt;ol style=&quot;font-size: 16px;&quot;&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;引入阿里云OSS的有什么好处&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;影像渲染时遥感起一个什么作用？&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;遥感是一个单独的服务还是仅仅是一个功能？&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;在影像渲染时，GIS服务的数据是从何而来的？&lt;span style=&quot;background-color: initial;&quot;&gt;是拉取的MinIO的数据吗？还是说三个服务本是部署在同一个机器上？&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;div style=&quot;text-align: left; font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2360" y="352" width="880" height="140" as="geometry" />
+          <mxGeometry x="2375" y="925" width="880" height="140" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-223" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aizblv3qcIen2mevFITz-218" target="Aizblv3qcIen2mevFITz-222">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-218" value="遥感" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="2036.75" y="1130" width="133.5" height="60" as="geometry" />
+          <mxGeometry x="2051.75" y="1703" width="133.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-221" value="配合遥感" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2031" y="1100" width="83.5" height="30" as="geometry" />
+          <mxGeometry x="2046" y="1673" width="83.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Aizblv3qcIen2mevFITz-222" value="长势任务状态：&lt;div&gt;发布成功&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1611.75" y="1130" width="133.5" height="60" as="geometry" />
+        <mxCell id="Aizblv3qcIen2mevFITz-222" value="长势任务状态：&lt;div&gt;发布成功&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#31d204;" vertex="1" parent="1">
+          <mxGeometry x="1626.75" y="1703" width="133.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-224" value="渲染结果" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1846.25" y="1132" width="83.5" height="30" as="geometry" />
+          <mxGeometry x="1861.25" y="1705" width="83.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-250" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;将在代码中寻找的答案&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="653" y="370" width="178" height="31" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-252" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;目前来看的缺点&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="2406" y="563" width="144" height="34" as="geometry" />
+          <mxGeometry x="2400" y="1135" width="144" height="34" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-254" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.028;entryY=0.488;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2220.5" y="1029.3999999999999" as="sourcePoint" />
-            <mxPoint x="1569.498" y="1028.9959999999999" as="targetPoint" />
+            <mxPoint x="2237" y="1595.3999999999999" as="sourcePoint" />
+            <mxPoint x="1585.998" y="1594.9959999999999" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-256" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;1.没有明显的可靠性机制，比如，当长势影像已经存入OSS，但回报信息未能及时给到农艺&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;农艺的重试机制是否会使研究院重新再生成一个长势影像从而浪费OSS空间&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;2.OSS的作用(目前来看是备份和解耦),相比于其增加的数据链路的长度，这种取舍是否值得&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="2405" y="1162" width="817" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-257" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.021;exitY=0.813;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2235.009" y="1176.5910000000001" as="sourcePoint" />
+            <mxPoint x="1759.75" y="1176.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-258" value="上传后回报农艺" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2073" y="1147" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
