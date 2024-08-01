@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="第 1 页" id="lfJFgyUHGgr_xkrEM4PF">
-    <mxGraphModel dx="2390" dy="1402" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4097" dy="2403" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -39,17 +39,14 @@
         <mxCell id="Aizblv3qcIen2mevFITz-6" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;植被影像生成&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Aizblv3qcIen2mevFITz-2">
           <mxGeometry x="204" y="128" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="Aizblv3qcIen2mevFITz-2" source="Aizblv3qcIen2mevFITz-8" target="Aizblv3qcIen2mevFITz-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-8" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;生成的结果同步到文件存储(MinIO)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Aizblv3qcIen2mevFITz-2">
           <mxGeometry x="204" y="218" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Aizblv3qcIen2mevFITz-17" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px; background-color: initial;&quot;&gt;执行长势算法&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Aizblv3qcIen2mevFITz-2">
+        <mxCell id="Aizblv3qcIen2mevFITz-17" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px; background-color: initial;&quot;&gt;执行长势算法&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="Aizblv3qcIen2mevFITz-2">
           <mxGeometry x="204" y="308" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Aizblv3qcIen2mevFITz-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Aizblv3qcIen2mevFITz-2" source="Aizblv3qcIen2mevFITz-8" target="Aizblv3qcIen2mevFITz-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Aizblv3qcIen2mevFITz-13" value="返回结果json" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=6;" vertex="1" parent="Aizblv3qcIen2mevFITz-2">
-          <mxGeometry x="140" y="227" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Aizblv3qcIen2mevFITz-2" source="Aizblv3qcIen2mevFITz-14" target="Aizblv3qcIen2mevFITz-17">
           <mxGeometry relative="1" as="geometry" />
@@ -75,20 +72,26 @@
         <mxCell id="Aizblv3qcIen2mevFITz-34" value="读取农场矢量信息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="Aizblv3qcIen2mevFITz-3">
           <mxGeometry x="37" y="53" width="82" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Aizblv3qcIen2mevFITz-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Aizblv3qcIen2mevFITz-3" source="Aizblv3qcIen2mevFITz-38" target="Aizblv3qcIen2mevFITz-40">
+        <mxCell id="Aizblv3qcIen2mevFITz-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Aizblv3qcIen2mevFITz-3" source="Aizblv3qcIen2mevFITz-38" target="Aizblv3qcIen2mevFITz-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-38" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;生成长势影像&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Aizblv3qcIen2mevFITz-3">
           <mxGeometry x="15" y="398" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Aizblv3qcIen2mevFITz-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Aizblv3qcIen2mevFITz-3" source="Aizblv3qcIen2mevFITz-40" target="Aizblv3qcIen2mevFITz-42">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Aizblv3qcIen2mevFITz-40" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;同步到MinIO&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Aizblv3qcIen2mevFITz-3">
-          <mxGeometry x="15" y="488" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-42" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;调用GIS渲染&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Aizblv3qcIen2mevFITz-3">
           <mxGeometry x="15" y="578" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-83" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="Aizblv3qcIen2mevFITz-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="75" y="511" as="sourcePoint" />
+            <mxPoint x="-115" y="511" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-84" value="同步到MinIO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="Aizblv3qcIen2mevFITz-3">
+          <mxGeometry x="-3" y="490" width="82" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-85" value="返回结果json" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="Aizblv3qcIen2mevFITz-3">
+          <mxGeometry x="48" y="689" width="82" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-4" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;GIS&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="350" width="150" height="849" as="geometry" />
@@ -107,14 +110,14 @@
         <mxCell id="Aizblv3qcIen2mevFITz-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Aizblv3qcIen2mevFITz-4" source="Aizblv3qcIen2mevFITz-44" target="Aizblv3qcIen2mevFITz-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Aizblv3qcIen2mevFITz-44" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;遥感着色渲染&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Aizblv3qcIen2mevFITz-4">
+        <mxCell id="Aizblv3qcIen2mevFITz-44" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;遥感着色渲染&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="Aizblv3qcIen2mevFITz-4">
           <mxGeometry x="15" y="578" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Aizblv3qcIen2mevFITz-50" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;渲染后的&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;长势影像发布到MinIO&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;(不确定是否是MinIO)&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Aizblv3qcIen2mevFITz-4">
+        <mxCell id="Aizblv3qcIen2mevFITz-50" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;渲染后的&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;长势影像发布到MinIO&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#f50a0a&quot; style=&quot;font-size: 12px;&quot;&gt;(不确定是否是MinIO)&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Aizblv3qcIen2mevFITz-4">
           <mxGeometry x="15" y="680" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-16" value="自动化长势旧方案" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=26;" vertex="1" parent="1">
-          <mxGeometry x="248.75" y="294" width="232.5" height="30" as="geometry" />
+          <mxGeometry x="270.25" y="149" width="232.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.002;entryY=0.44;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Aizblv3qcIen2mevFITz-5" target="Aizblv3qcIen2mevFITz-30">
           <mxGeometry relative="1" as="geometry" />
@@ -141,31 +144,135 @@
           <mxGeometry x="724" y="851" width="130" height="31" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-61" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="96" y="1328" width="153" height="460" as="geometry" />
+          <mxGeometry x="100" y="1601" width="153" height="741" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-62" value="自动化施肥方案" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=26;" vertex="1" parent="1">
-          <mxGeometry x="266.25" y="1255" width="232.5" height="30" as="geometry" />
+          <mxGeometry x="270.25" y="1528" width="232.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-63" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="306" y="1328" width="153" height="460" as="geometry" />
+          <mxGeometry x="310" y="1601" width="153" height="742" as="geometry" />
         </mxCell>
-        <mxCell id="Aizblv3qcIen2mevFITz-64" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="516" y="1331" width="153" height="460" as="geometry" />
+        <mxCell id="Aizblv3qcIen2mevFITz-64" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1604" width="153" height="737" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-65" value="农艺" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="142.5" y="1344" width="60" height="30" as="geometry" />
+          <mxGeometry x="146.5" y="1617" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-66" value="研究院" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="352.5" y="1344" width="60" height="30" as="geometry" />
+          <mxGeometry x="356.5" y="1617" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-67" value="GIS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="562.5" y="1344" width="60" height="30" as="geometry" />
+          <mxGeometry x="566.5" y="1617" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Aizblv3qcIen2mevFITz-68" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;总结:&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;1.问题同上，不知道定时任务干嘛用的&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;2.长势影像是农艺拉下来推给研究院吗？&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="726" y="1361" width="357" height="95" as="geometry" />
+          <mxGeometry x="730" y="1634" width="357" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="Aizblv3qcIen2mevFITz-69" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="114" y="1396" width="120" height="60" as="geometry" />
+        <mxCell id="Aizblv3qcIen2mevFITz-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aizblv3qcIen2mevFITz-69" target="Aizblv3qcIen2mevFITz-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aizblv3qcIen2mevFITz-69" target="Aizblv3qcIen2mevFITz-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-69" value="长势影像信息&lt;div&gt;地块种植信息&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="116.5" y="1752" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-70" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;文件DB&lt;/div&gt;MinIO&lt;div&gt;部署于农艺&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="98.5" y="252" width="152.5" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aizblv3qcIen2mevFITz-71" target="Aizblv3qcIen2mevFITz-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-71" value="触发定时任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="116.5" y="1669" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aizblv3qcIen2mevFITz-73" target="Aizblv3qcIen2mevFITz-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aizblv3qcIen2mevFITz-73" target="Aizblv3qcIen2mevFITz-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-73" value="执行施肥算法" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="326.5" y="1752" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aizblv3qcIen2mevFITz-75" target="Aizblv3qcIen2mevFITz-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-75" value="位置信息服务" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="536.5" y="1752" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-78" value="查询矢量坐标" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="463" y="1734" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="Aizblv3qcIen2mevFITz-79">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="177.07462686567158" y="1849.8955223880598" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-79" value="生成施肥结果影像" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="326.5" y="1835" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="304" y="586" as="sourcePoint" />
+            <mxPoint x="234" y="586" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-13" value="返回结果json" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="240" y="565" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-88" value="同步文件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="240" y="614" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-95" value="或者此处本就并非影像&lt;div&gt;而是依靠研究院json串&lt;/div&gt;&lt;div&gt;生成的前端页面&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.41;" vertex="1" parent="1">
+          <mxGeometry x="599" y="932" width="106" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-100" value="同步施肥影像" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="221" y="1822" width="93" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aizblv3qcIen2mevFITz-101" target="Aizblv3qcIen2mevFITz-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-101" value="确认施肥影像完成" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="116.5" y="1930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-105" value="施肥结果json" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="275" y="1937" width="93" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1.002;entryY=0.615;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Aizblv3qcIen2mevFITz-79" target="Aizblv3qcIen2mevFITz-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aizblv3qcIen2mevFITz-111" target="Aizblv3qcIen2mevFITz-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aizblv3qcIen2mevFITz-111" target="Aizblv3qcIen2mevFITz-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-111" value="调用GIS渲染服务" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="116.5" y="2185" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-113" value="&lt;div&gt;状态:&lt;/div&gt;&lt;div&gt;发布成功&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="158" y="2062" width="76" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.644;entryY=0.018;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Aizblv3qcIen2mevFITz-101" target="Aizblv3qcIen2mevFITz-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-115" value="地块处方" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="2012" width="93" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-117" value="变量处方" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="69" y="2072" width="93" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aizblv3qcIen2mevFITz-118" target="Aizblv3qcIen2mevFITz-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-118" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;遥感着色渲染&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="536.5" y="2185" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-122" value="任务完成" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="138.5" y="2289" width="76" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="Aizblv3qcIen2mevFITz-123" value="&lt;div&gt;状态:&lt;/div&gt;&lt;div&gt;发布成功&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="138.5" y="2289" width="76" height="44" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
