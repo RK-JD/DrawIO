@@ -1,9 +1,50 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="DhPBDqy-Tx6JhOOz4x8_">
-    <mxGraphModel>
+    <mxGraphModel dx="1199" dy="713" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mfTE5xzaqW6w9cUMIXzi-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mfTE5xzaqW6w9cUMIXzi-1" target="mfTE5xzaqW6w9cUMIXzi-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mfTE5xzaqW6w9cUMIXzi-1" value="传入farmID" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mfTE5xzaqW6w9cUMIXzi-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mfTE5xzaqW6w9cUMIXzi-2" target="mfTE5xzaqW6w9cUMIXzi-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mfTE5xzaqW6w9cUMIXzi-2" value="farmID&lt;div&gt;isActive=Y&lt;/div&gt;&lt;div&gt;status=1&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;得到plantSeasons&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;种植季&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="350" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mfTE5xzaqW6w9cUMIXzi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mfTE5xzaqW6w9cUMIXzi-4" target="mfTE5xzaqW6w9cUMIXzi-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mfTE5xzaqW6w9cUMIXzi-8" value="用keySet" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mfTE5xzaqW6w9cUMIXzi-7">
+          <mxGeometry x="-0.1904" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfTE5xzaqW6w9cUMIXzi-4" value="去重&lt;br&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;得到SET plantSeasonsID&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="516" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mfTE5xzaqW6w9cUMIXzi-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mfTE5xzaqW6w9cUMIXzi-6" target="mfTE5xzaqW6w9cUMIXzi-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mfTE5xzaqW6w9cUMIXzi-6" value="plant_season_id==plantSeasonID&lt;br&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;得到&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;&lt;b&gt;FarmingRecordOfSectionCropsDto&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="691" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mfTE5xzaqW6w9cUMIXzi-9" value="按FarmId分类&lt;br&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;得到&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;&lt;b&gt;farmRecordGroups&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;(是id:片区映射吗)&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="234" y="878" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mfTE5xzaqW6w9cUMIXzi-11" value="generateGrowthAutoTask()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="273.5" y="142" width="161" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mfTE5xzaqW6w9cUMIXzi-13" value="saveTaskResult()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="685" y="142" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mfTE5xzaqW6w9cUMIXzi-14" value="传入AutoTaskDTO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
