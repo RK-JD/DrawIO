@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="k5yTiqKiM7KxolQvgu_R">
-    <mxGraphModel dx="1199" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1799" dy="946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -61,8 +61,23 @@
         <mxCell id="k6Vo8XJsOw7zzvh53n1a-22" value="plantSeasons pss" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1045" y="440" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="k6Vo8XJsOw7zzvh53n1a-24" value="筛选条件：&lt;div&gt;1.种植季id出现在了fpg中&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="555" width="160" height="40" as="geometry" />
+        <mxCell id="k6Vo8XJsOw7zzvh53n1a-24" value="脏数据筛选条件：&lt;div&gt;1.种植季id出现在了fpg中&lt;/div&gt;&lt;div&gt;2.fpg.getimageid的id存在于remoteImageMap&lt;br&gt;且这个图片的日期不为空&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="540" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="k6Vo8XJsOw7zzvh53n1a-25" value="种植季" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k6Vo8XJsOw7zzvh53n1a-26" value="农场" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k6Vo8XJsOw7zzvh53n1a-28" value="长势任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="985" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k6Vo8XJsOw7zzvh53n1a-29" value="遥感影像" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k6Vo8XJsOw7zzvh53n1a-30" value="自动任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="535" y="760" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
