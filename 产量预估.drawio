@@ -1,9 +1,69 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="k5yTiqKiM7KxolQvgu_R">
-    <mxGraphModel>
+    <mxGraphModel dx="1199" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="k6Vo8XJsOw7zzvh53n1a-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k6Vo8XJsOw7zzvh53n1a-1" target="k6Vo8XJsOw7zzvh53n1a-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k6Vo8XJsOw7zzvh53n1a-1" value="addTask(farmId,稻作类型)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="260" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k6Vo8XJsOw7zzvh53n1a-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k6Vo8XJsOw7zzvh53n1a-2" target="k6Vo8XJsOw7zzvh53n1a-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k6Vo8XJsOw7zzvh53n1a-2" value="yeidprediction(farmIds,&lt;div&gt;稻作类型sowtype,&lt;/div&gt;&lt;div&gt;长势任务类型，&lt;/div&gt;&lt;div&gt;imageTime，&lt;/div&gt;&lt;div&gt;imageType，&lt;/div&gt;&lt;div&gt;plantSeasonIds)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="370" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="k6Vo8XJsOw7zzvh53n1a-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k6Vo8XJsOw7zzvh53n1a-4" target="k6Vo8XJsOw7zzvh53n1a-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k6Vo8XJsOw7zzvh53n1a-4" value="&lt;b&gt;校验&lt;/b&gt;&lt;br&gt;是否已经存在三期遥感影像" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="390" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k6Vo8XJsOw7zzvh53n1a-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k6Vo8XJsOw7zzvh53n1a-6" target="k6Vo8XJsOw7zzvh53n1a-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k6Vo8XJsOw7zzvh53n1a-6" value="&lt;b&gt;Select&lt;/b&gt;&lt;br&gt;通过farmId找到发布成功(&lt;i&gt;&lt;font color=&quot;#c800ff&quot;&gt;PUBLISHED&lt;/font&gt;&lt;/i&gt;)的长势任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="220" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="k6Vo8XJsOw7zzvh53n1a-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k6Vo8XJsOw7zzvh53n1a-10" target="k6Vo8XJsOw7zzvh53n1a-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k6Vo8XJsOw7zzvh53n1a-10" value="&lt;b&gt;Select&lt;/b&gt;&lt;br&gt;通过上述长势任务的RemoteImageId，找到遥感影像" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="290" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="k6Vo8XJsOw7zzvh53n1a-11" value="&lt;font color=&quot;#c3c1c1&quot;&gt;&lt;span&gt;此处要根据imageTime和&lt;br&gt;imageType做筛选，组织成&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-style: normal;&quot;&gt;remoteImageMap(id,image)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="1015" y="280" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k6Vo8XJsOw7zzvh53n1a-13" value="verificationProcesses vps" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1015" y="230" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k6Vo8XJsOw7zzvh53n1a-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k6Vo8XJsOw7zzvh53n1a-14" target="k6Vo8XJsOw7zzvh53n1a-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k6Vo8XJsOw7zzvh53n1a-14" value="&lt;b&gt;Filter 合法遥感影像&lt;/b&gt;&lt;br&gt;根据筛选完的remoteImagMap,反向筛选vps,剔除无对应影像的vp" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="360" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="k6Vo8XJsOw7zzvh53n1a-16" value="把筛选完的vps，&lt;div&gt;按照Map(farmId,list&amp;lt;vp&amp;gt;)组织为&lt;br&gt;processFarmGroup pfg&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1005" y="355" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k6Vo8XJsOw7zzvh53n1a-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k6Vo8XJsOw7zzvh53n1a-17" target="k6Vo8XJsOw7zzvh53n1a-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k6Vo8XJsOw7zzvh53n1a-17" value="&lt;b&gt;Filter 种植季&lt;/b&gt;&lt;br&gt;根据plantSeasonIds,查有效的种植季，传null则直接用pfg的keySet" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="430" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="k6Vo8XJsOw7zzvh53n1a-20" value="&lt;b&gt;Sort 稻作类型&lt;/b&gt;&lt;br&gt;遍历pss,不符合sowtype废弃；长势影像不足3期废弃；&lt;div&gt;同时以plantSeason的farmId在pfg中取出farmProcessGroup 这实际是长势影像，按条件筛选并排序成新的fpg&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="510" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="k6Vo8XJsOw7zzvh53n1a-22" value="plantSeasons pss" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1045" y="440" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k6Vo8XJsOw7zzvh53n1a-24" value="筛选条件：&lt;div&gt;1.种植季id出现在了fpg中&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="555" width="160" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
