@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="k5yTiqKiM7KxolQvgu_R">
-    <mxGraphModel dx="504" dy="300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="719" dy="428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,17 +55,20 @@
         <mxCell id="k6Vo8XJsOw7zzvh53n1a-17" value="&lt;b&gt;Filter 种植季&lt;/b&gt;&lt;br&gt;根据plantSeasonIds,查有效的种植季，传null则直接用pfg的keySet" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="800" y="430" width="200" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="XywxlG7MxDHmHPa6fk5y-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k6Vo8XJsOw7zzvh53n1a-20" target="EAVZWAEJz5FC2BpZX5lk-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="k6Vo8XJsOw7zzvh53n1a-20" value="&lt;b&gt;Sort 稻作类型&lt;/b&gt;&lt;br&gt;遍历pss,不符合sowtype废弃；长势影像不足3期废弃；&lt;div&gt;同时以plantSeason的farmId在pfg中取出farmProcessGroup 这实际是长势影像，按条件筛选并排序成新的fpg&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="800" y="510" width="200" height="110" as="geometry" />
+          <mxGeometry x="800" y="510" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="k6Vo8XJsOw7zzvh53n1a-22" value="plantSeasons pss" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1045" y="440" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k6Vo8XJsOw7zzvh53n1a-24" value="脏数据筛选条件：&lt;div&gt;1.种植季id出现在了fpg中&lt;/div&gt;&lt;div&gt;2.fpg.getimageid的id存在于remoteImageMap&lt;br&gt;且这个图片的日期不为空&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="530" width="260" height="70" as="geometry" />
+          <mxGeometry x="1000" y="525" width="260" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="EAVZWAEJz5FC2BpZX5lk-1" value="&lt;b&gt;Filter 种植季&lt;/b&gt;&lt;div&gt;yieldProcess存储&lt;br&gt;&lt;font size=&quot;1&quot; color=&quot;#d400ff&quot;&gt;&lt;i style=&quot;font-size: 10px;&quot;&gt;SEND_IMAGE_COUNT_CONDITION&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="650" width="200" height="50" as="geometry" />
+        <mxCell id="EAVZWAEJz5FC2BpZX5lk-1" value="&lt;b&gt;List 装载图片&lt;/b&gt;&lt;br&gt;&lt;div&gt;yieldProcess存储vp&lt;br&gt;&lt;font size=&quot;1&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;达到&lt;/span&gt;&lt;i style=&quot;color: rgb(212, 0, 255); font-size: 10px;&quot;&gt;SEND_IMAGE_COUNT_CONDITION&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;(3个)方可进入下一环节(开启产量预估&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="800" y="650" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
