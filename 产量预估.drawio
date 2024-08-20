@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="k5yTiqKiM7KxolQvgu_R">
-    <mxGraphModel dx="1881" dy="881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2498" dy="1248" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,7 +43,7 @@
         <mxCell id="k6Vo8XJsOw7zzvh53n1a-10" value="&lt;b&gt;Select&lt;/b&gt;&lt;br&gt;通过上述长势任务的RemoteImageId，找到遥感影像" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="800" y="290" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="k6Vo8XJsOw7zzvh53n1a-11" value="&lt;font color=&quot;#c3c1c1&quot;&gt;&lt;span&gt;此处要根据imageTime和&lt;br&gt;imageType做筛选，组织成&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-style: normal;&quot;&gt;remoteImageMap(id,image)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2" parent="1" vertex="1">
+        <mxCell id="k6Vo8XJsOw7zzvh53n1a-11" value="此处要根据imageTime和&lt;br&gt;imageType做筛选，组织成&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-style: normal;&quot;&gt;remoteImageMap(id,image)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2" parent="1" vertex="1">
           <mxGeometry x="1015" y="280" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k6Vo8XJsOw7zzvh53n1a-13" value="verificationProcesses vps" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
