@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="k5yTiqKiM7KxolQvgu_R">
-    <mxGraphModel dx="1849" dy="1024" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1807" dy="999" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -72,9 +72,6 @@
         </mxCell>
         <mxCell id="k6Vo8XJsOw7zzvh53n1a-22" value="plantSeasons pss" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1025" y="440" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="k6Vo8XJsOw7zzvh53n1a-24" value="脏数据筛选条件：&lt;div&gt;1.种植季id出现在了fpg中&lt;/div&gt;&lt;div&gt;2.fpg.getimageid的id存在于&lt;/div&gt;&lt;div&gt;remoteImageMap&lt;br&gt;且这个图片的日期不为空&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1028" y="501" width="164" height="84" as="geometry" />
         </mxCell>
         <mxCell id="EAVZWAEJz5FC2BpZX5lk-1" value="&lt;b&gt;遍历 fpg&lt;/b&gt;&lt;br&gt;&lt;div&gt;yieldProcess存储vp&lt;br&gt;&lt;font size=&quot;1&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;未达到&lt;/span&gt;&lt;i style=&quot;color: rgb(212, 0, 255); font-size: 10px;&quot;&gt;SCOUNT&lt;/i&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;，则装入&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;yieldProcess&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="800" y="620" width="200" height="60" as="geometry" />
@@ -245,8 +242,11 @@
             <mxPoint x="-8" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Lbo-__C76JFn3yMAQjEz-54" value="1.plantSeason的sowType不符合指定的sowType，剔除（&lt;span style=&quot;color: rgb(30, 148, 44); text-wrap: wrap;&quot;&gt;没有有效种植季&lt;/span&gt;）&lt;div&gt;2.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1301" y="567.5" width="417" height="41" as="geometry" />
+        <mxCell id="Lbo-__C76JFn3yMAQjEz-54" value="1.plantSeason的sowType不符合指定的sowType，剔除（&lt;span style=&quot;color: rgb(30, 148, 44); text-wrap: wrap;&quot;&gt;没有有效种植季&lt;/span&gt;）&lt;div&gt;2.查询种植季所属的农场，是否有三期长势影像（&lt;font color=&quot;#009900&quot;&gt;种植季期数不满足条件（小于3）！&lt;/font&gt;）这个条件实际上是一个必要条件，&lt;/div&gt;&lt;div&gt;农场的影像都不足3个，这个种植季怎么会有3期影像呢？&lt;/div&gt;&lt;div&gt;3.filter筛选，种植季不为空，且&lt;b&gt;种植季的id在这个长势影像所对应的种植季中&lt;/b&gt;，也就是根据长势影像，筛选合法的种植季&lt;/div&gt;&lt;div&gt;如果没传入PlantSeasonIds，这一个环节则不需要的，因为本就是按照vps长势任务关联农场生成的种植季&lt;/div&gt;&lt;div&gt;4.根据合法imageMap筛选，影像id存在于合法Map，且其创建时间不为空，则true&lt;font color=&quot;#f0bc00&quot;&gt;(脏数据)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1025" y="493" width="659" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="Lbo-__C76JFn3yMAQjEz-60" value="至此，fpg中的影像完全与plantSeasonIds有关联" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="597" width="273" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
