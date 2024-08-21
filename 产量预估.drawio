@@ -187,13 +187,13 @@
         <mxCell id="Lbo-__C76JFn3yMAQjEz-34" value="筛选vps，只有verificationProcess的&lt;div&gt;imageId存在于&lt;span style=&quot;background-color: initial;&quot;&gt;Map中，才保留，&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;也就是只保留图像合法的长势任务&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="1209" y="364" width="209" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="Lbo-__C76JFn3yMAQjEz-35" value="&lt;b&gt;plantSeasons&lt;/b&gt;，根据&lt;div&gt;yieldPrediction传入的plantSeasonIds&lt;span style=&quot;background-color: initial;&quot;&gt;查表得到，&lt;/span&gt;&lt;div&gt;如果没传入：直接采用vps的所有关联农场id&lt;/div&gt;&lt;/div&gt;&lt;div&gt;查找其各自的种植季，即全量查找&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="Lbo-__C76JFn3yMAQjEz-35" value="&lt;b&gt;遍历plantSeasons&lt;/b&gt;，pss是根据&lt;div&gt;yieldPrediction传入的plantSeasonIds&lt;span style=&quot;background-color: initial;&quot;&gt;查表得到，&lt;/span&gt;&lt;div&gt;如果没传入：直接采用vps的所有关联农场id&lt;/div&gt;&lt;/div&gt;&lt;div&gt;查找其各自的种植季，即全量查找&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="1177" y="423" width="275" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Lbo-__C76JFn3yMAQjEz-36" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1428" y="503" as="sourcePoint" />
-            <mxPoint x="1511" y="503" as="targetPoint" />
+            <mxPoint x="1440" y="467.5" as="sourcePoint" />
+            <mxPoint x="1523" y="467.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Lbo-__C76JFn3yMAQjEz-38" value="pss空" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Lbo-__C76JFn3yMAQjEz-36">
@@ -202,7 +202,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Lbo-__C76JFn3yMAQjEz-37" value="没有有效种植季" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#1e942c;" vertex="1" parent="1">
-          <mxGeometry x="1505" y="488" width="135" height="30" as="geometry" />
+          <mxGeometry x="1517" y="452.5" width="135" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Lbo-__C76JFn3yMAQjEz-39" value="&lt;span style=&quot;text-wrap: wrap;&quot;&gt;&lt;i&gt;&lt;font color=&quot;#ff00f7&quot; style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;logger&lt;/b&gt;&lt;/font&gt;&lt;/i&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1535" y="180" width="64" height="30" as="geometry" />
@@ -244,6 +244,9 @@
           <mxGeometry x="-0.1637" y="3" relative="1" as="geometry">
             <mxPoint x="-8" y="-12" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Lbo-__C76JFn3yMAQjEz-54" value="1.plantSeason的sowType不符合指定的sowType，剔除（&lt;span style=&quot;color: rgb(30, 148, 44); text-wrap: wrap;&quot;&gt;没有有效种植季&lt;/span&gt;）&lt;div&gt;2.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1301" y="567.5" width="417" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
