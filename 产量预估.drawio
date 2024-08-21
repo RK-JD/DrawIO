@@ -243,10 +243,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Lbo-__C76JFn3yMAQjEz-54" value="1.plantSeason的sowType不符合指定的sowType，剔除（&lt;span style=&quot;color: rgb(30, 148, 44); text-wrap: wrap;&quot;&gt;没有有效种植季&lt;/span&gt;）&lt;div&gt;2.查询种植季所属的农场，是否有三期长势影像（&lt;font color=&quot;#009900&quot;&gt;种植季期数不满足条件（小于3）！&lt;/font&gt;）这个条件实际上是一个必要条件，&lt;/div&gt;&lt;div&gt;农场的影像都不足3个，这个种植季怎么会有3期影像呢？&lt;/div&gt;&lt;div&gt;3.filter筛选，种植季不为空，且&lt;b&gt;种植季的id在这个长势影像所对应的种植季中&lt;/b&gt;，也就是根据长势影像，筛选合法的种植季&lt;/div&gt;&lt;div&gt;如果没传入PlantSeasonIds，这一个环节则不需要的，因为本就是按照vps长势任务关联农场生成的种植季&lt;/div&gt;&lt;div&gt;4.根据合法imageMap筛选，影像id存在于合法Map，且其创建时间不为空，则true&lt;font color=&quot;#f0bc00&quot;&gt;(脏数据)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1025" y="493" width="659" height="98" as="geometry" />
+          <mxGeometry x="1027" y="491" width="659" height="98" as="geometry" />
         </mxCell>
-        <mxCell id="Lbo-__C76JFn3yMAQjEz-60" value="至此，fpg中的影像完全与plantSeasonIds有关联" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1185" y="597" width="273" height="26" as="geometry" />
+        <mxCell id="Lbo-__C76JFn3yMAQjEz-60" value="至此，fpg中的影像完全与plantSeasonId有关联，遍历fpg，&lt;div&gt;有三个影像则装载&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1167.5" y="634.5" width="332" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
