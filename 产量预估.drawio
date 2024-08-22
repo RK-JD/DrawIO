@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="k5yTiqKiM7KxolQvgu_R">
-    <mxGraphModel dx="3318" dy="1898" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2898" dy="1648" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -248,7 +248,7 @@
         <mxCell id="Lbo-__C76JFn3yMAQjEz-60" value="至此，fpg中的影像完全与plantSeasonId有关联，遍历fpg，&lt;div&gt;有三个影像则装载&lt;/div&gt;&lt;div&gt;(vecificationProcess和image是一一对应关系，即生成的长势图像)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1151.5" y="627.5" width="365" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="CCDwiHsNsHK28pe2jVji-1" value="长势自动触发产量预估" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CCDwiHsNsHK28pe2jVji-1" value="每生成一期长势，&lt;div&gt;都会自动&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="380" y="25" width="133" height="30" as="geometry" />
         </mxCell>
       </root>
