@@ -264,6 +264,9 @@
         <mxCell id="peurCXsNEcaJijr6-GbO-1" value="1.分蘖期和抽穗期之间必须有三期图像&lt;div&gt;2.一个vp只对应一个image&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1004" y="-58" width="220" height="41" as="geometry" />
         </mxCell>
+        <mxCell id="LvVKLetRt9PvogNZnrdE-1" value="返回结果" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-463" y="635" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
