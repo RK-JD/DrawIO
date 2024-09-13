@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.13" pages="2">
   <diagram name="第 1 页" id="bU-xMZTI8MpihGftyLqU">
-    <mxGraphModel dx="2498" dy="1648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4748" dy="2273" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,53 +25,53 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="H16j5Ul2mI7U-3mI70LO-3" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;callPylonNdviAlgorithm(SaAutoTask &lt;/b&gt;autoTask&lt;b&gt;)&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="419.5" y="130" width="321" height="60" as="geometry" />
+          <mxGeometry x="-980.5" y="1050" width="321" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bQHwtgiF9r9U_ECL-Ta0-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="H16j5Ul2mI7U-3mI70LO-6" target="H16j5Ul2mI7U-3mI70LO-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="580" y="100" />
+              <mxPoint x="-820" y="1020" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="H16j5Ul2mI7U-3mI70LO-6" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;b&gt;generateGrowthAutoTasks(String &lt;/b&gt;farmId&lt;b&gt;)&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="460" y="40" width="240" height="60" as="geometry" />
+          <mxGeometry x="-940" y="960" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bQHwtgiF9r9U_ECL-Ta0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="bQHwtgiF9r9U_ECL-Ta0-4" target="H16j5Ul2mI7U-3mI70LO-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bQHwtgiF9r9U_ECL-Ta0-4" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;/autoTask/init&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;farmId&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="515" y="-60" width="130" height="60" as="geometry" />
+          <mxGeometry x="-885" y="860" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bQHwtgiF9r9U_ECL-Ta0-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="bQHwtgiF9r9U_ECL-Ta0-7" target="bQHwtgiF9r9U_ECL-Ta0-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bQHwtgiF9r9U_ECL-Ta0-7" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;DB的任务表&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="419.5" y="250" width="321" height="60" as="geometry" />
+          <mxGeometry x="-980.5" y="1170" width="321" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bQHwtgiF9r9U_ECL-Ta0-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="bQHwtgiF9r9U_ECL-Ta0-16" target="H16j5Ul2mI7U-3mI70LO-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bQHwtgiF9r9U_ECL-Ta0-16" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family: 等线; font-size: 10.5pt;&quot;&gt;/ndvi_pylon&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="890" y="130" width="321" height="60" as="geometry" />
+          <mxGeometry x="-510" y="1050" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bQHwtgiF9r9U_ECL-Ta0-19" value="request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="780" y="118" width="60" height="30" as="geometry" />
+          <mxGeometry x="-620" y="1038" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bQHwtgiF9r9U_ECL-Ta0-20" value="此时并未返回【cloud_ratio】" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#f70808;" parent="1" vertex="1">
-          <mxGeometry x="735" y="180" width="180" height="30" as="geometry" />
+          <mxGeometry x="-665" y="1100" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bQHwtgiF9r9U_ECL-Ta0-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bQHwtgiF9r9U_ECL-Ta0-23" target="H16j5Ul2mI7U-3mI70LO-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bQHwtgiF9r9U_ECL-Ta0-23" value="&lt;b&gt;scheduleAutoTask()&amp;nbsp;&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="250" width="210" height="60" as="geometry" />
+          <mxGeometry x="-1320" y="1170" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bQHwtgiF9r9U_ECL-Ta0-29" value="调用" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="260" y="130" width="60" height="30" as="geometry" />
+          <mxGeometry x="-1140" y="1050" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bQHwtgiF9r9U_ECL-Ta0-31" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;找到非处理、非失败、&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;非成功的就绪任务&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="250" width="130" height="40" as="geometry" />
+          <mxGeometry x="-1100" y="1170" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c2CcDeZ77ILfJtzNUxQb-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="c2CcDeZ77ILfJtzNUxQb-1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -111,8 +111,21 @@
         <mxCell id="c2CcDeZ77ILfJtzNUxQb-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="c2CcDeZ77ILfJtzNUxQb-13" target="c2CcDeZ77ILfJtzNUxQb-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aj3jlf79KJcNchPvKdEv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="c2CcDeZ77ILfJtzNUxQb-13" target="c2CcDeZ77ILfJtzNUxQb-23">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="aj3jlf79KJcNchPvKdEv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.667;exitY=1.011;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="c2CcDeZ77ILfJtzNUxQb-13" target="c2CcDeZ77ILfJtzNUxQb-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="1000" />
+              <mxPoint x="1020" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="c2CcDeZ77ILfJtzNUxQb-13" target="c2CcDeZ77ILfJtzNUxQb-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="990" />
+              <mxPoint x="1330" y="990" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="c2CcDeZ77ILfJtzNUxQb-13" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;saveResult()&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="530" y="900" width="120" height="60" as="geometry" />
@@ -139,11 +152,17 @@
         <mxCell id="c2CcDeZ77ILfJtzNUxQb-22" value="&lt;span style=&quot;text-align: left;&quot;&gt;case&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#b212b5&quot;&gt;&lt;i&gt;NDVI_ANALYSIS_PUSHING&lt;/i&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#b212b5&quot;&gt;推送中&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="477.5" y="1040" width="225" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="c2CcDeZ77ILfJtzNUxQb-23" target="aaeH6RGTp8yCNECdlGZ3-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="c2CcDeZ77ILfJtzNUxQb-23" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial; text-align: left;&quot;&gt;case&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#b212b5&quot;&gt;&lt;i&gt;ANALYSIS&lt;/i&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#b212b5&quot;&gt;算法分析中&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="910" y="1040" width="120" height="60" as="geometry" />
+          <mxGeometry x="960" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="c2CcDeZ77ILfJtzNUxQb-25" target="aaeH6RGTp8yCNECdlGZ3-27">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="c2CcDeZ77ILfJtzNUxQb-25" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial; text-align: left;&quot;&gt;case&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#b212b5&quot;&gt;&lt;i&gt;PUSHING&lt;/i&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#b212b5&quot;&gt;结果推送中&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1140" y="1040" width="120" height="60" as="geometry" />
+          <mxGeometry x="1270" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c2CcDeZ77ILfJtzNUxQb-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="c2CcDeZ77ILfJtzNUxQb-28" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -162,50 +181,8 @@
         <mxCell id="c2CcDeZ77ILfJtzNUxQb-36" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;b&gt;void prepareAndCallGrowthTask(autoTask, jsonResult)&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="450" y="1180" width="320" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="c2CcDeZ77ILfJtzNUxQb-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="c2CcDeZ77ILfJtzNUxQb-39" target="c2CcDeZ77ILfJtzNUxQb-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="c2CcDeZ77ILfJtzNUxQb-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="c2CcDeZ77ILfJtzNUxQb-39" target="c2CcDeZ77ILfJtzNUxQb-43" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="c2CcDeZ77ILfJtzNUxQb-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="c2CcDeZ77ILfJtzNUxQb-39" target="c2CcDeZ77ILfJtzNUxQb-46" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="c2CcDeZ77ILfJtzNUxQb-39" value="&lt;span style=&quot;text-align: left;&quot;&gt;AutoTaskDto dto&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1020" y="550" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="c2CcDeZ77ILfJtzNUxQb-40" value="数据实体，包含了NDVI的处理结果&lt;div&gt;其中就有cloudRatio字段&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1160" y="560" width="210" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="c2CcDeZ77ILfJtzNUxQb-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="c2CcDeZ77ILfJtzNUxQb-43" target="c2CcDeZ77ILfJtzNUxQb-46" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="c2CcDeZ77ILfJtzNUxQb-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="c2CcDeZ77ILfJtzNUxQb-43" target="c2CcDeZ77ILfJtzNUxQb-52" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="c2CcDeZ77ILfJtzNUxQb-43" value="&lt;span style=&quot;text-align: left;&quot;&gt;AutoTaskDto dto&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1240" y="780" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="c2CcDeZ77ILfJtzNUxQb-46" value="&lt;span style=&quot;text-align: left;&quot;&gt;SaAutoTask sat&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="910" y="780" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="c2CcDeZ77ILfJtzNUxQb-48" value="&lt;span style=&quot;text-align: left; text-wrap: wrap;&quot;&gt;saAutoTaskMapper&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1035" y="780" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="c2CcDeZ77ILfJtzNUxQb-50" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; text-wrap: wrap;&quot;&gt;getAutoTaskByTaskId(dto.getTaskId())&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1020" y="810" width="230" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="c2CcDeZ77ILfJtzNUxQb-52" value="&lt;span style=&quot;text-align: left;&quot;&gt;(SaAutoTask sat，&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;AutoTaskDto dto)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="910" y="900" width="260" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="c2CcDeZ77ILfJtzNUxQb-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.233;entryY=-0.03;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="c2CcDeZ77ILfJtzNUxQb-46" target="c2CcDeZ77ILfJtzNUxQb-52" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="c2CcDeZ77ILfJtzNUxQb-56" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;b&gt;void saveRemoteImage(autoTask, objectName)&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;b&gt;保存NDVI影像图片&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="450" y="1330" width="320" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="sYAe8IQzKOMEw_lvaYPf-1" value="传参变化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=19;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="470" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="F7ShpeiGUes_06DBWhh4-2" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;b&gt;void callGrowthAnalysis(autoTask, jsonResult)&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;b&gt;触发长势任务&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="450" y="1430" width="320" height="90" as="geometry" />
@@ -213,20 +190,129 @@
         <mxCell id="F7ShpeiGUes_06DBWhh4-5" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;触发完成，设置autoTask状态为&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;font color=&quot;#b212b5&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;i&gt;PUBLISHED&lt;/i&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;i&gt;&lt;font color=&quot;#b212b5&quot;&gt;此autotask生命周期至此结束&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="450" y="1530" width="320" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="aj3jlf79KJcNchPvKdEv-2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="aj3jlf79KJcNchPvKdEv-2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="840" y="1670" as="sourcePoint" />
             <mxPoint x="840" y="1040" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aj3jlf79KJcNchPvKdEv-3" value="NDVI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=27;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="aj3jlf79KJcNchPvKdEv-3" value="NDVI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=27;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="359.5" y="1690" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aj3jlf79KJcNchPvKdEv-4" value="GROWTH" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=27;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="aj3jlf79KJcNchPvKdEv-4" value="GROWTH" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=27;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1070" y="1690" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aj3jlf79KJcNchPvKdEv-5" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=52.5;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aj3jlf79KJcNchPvKdEv-5" target="c2CcDeZ77ILfJtzNUxQb-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="1043" />
+              <mxPoint x="200" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aj3jlf79KJcNchPvKdEv-5" value="&lt;b&gt;&lt;font style=&quot;font-size: 27px;&quot;&gt;研究院&lt;/font&gt;&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="-180" y="990" width="140" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=127.5;entryPerimeter=0;" edge="1" parent="1" source="F7ShpeiGUes_06DBWhh4-2" target="aj3jlf79KJcNchPvKdEv-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="1475" />
+              <mxPoint x="70" y="1118" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bQHwtgiF9r9U_ECL-Ta0-16" target="aj3jlf79KJcNchPvKdEv-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-5" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;1️⃣&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="1040" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-6" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;2️⃣&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="1000" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-7" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;3️⃣&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="1080" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aaeH6RGTp8yCNECdlGZ3-10" target="aaeH6RGTp8yCNECdlGZ3-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aaeH6RGTp8yCNECdlGZ3-10" target="aaeH6RGTp8yCNECdlGZ3-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-10" value="&lt;span style=&quot;text-align: left;&quot;&gt;AutoTaskDto dto&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="-50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-11" value="数据实体，包含了NDVI的处理结果&lt;div&gt;其中就有cloudRatio字段&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="-40" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aaeH6RGTp8yCNECdlGZ3-14" target="aaeH6RGTp8yCNECdlGZ3-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aaeH6RGTp8yCNECdlGZ3-14" target="aaeH6RGTp8yCNECdlGZ3-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-14" value="&lt;span style=&quot;text-align: left;&quot;&gt;AutoTaskDto dto&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-15" value="&lt;span style=&quot;text-align: left;&quot;&gt;SaAutoTask sat&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-16" value="&lt;span style=&quot;text-align: left; text-wrap: wrap;&quot;&gt;saAutoTaskMapper&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="565" y="180" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-17" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; text-wrap: wrap;&quot;&gt;getAutoTaskByTaskId(dto.getTaskId())&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="210" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-18" value="&lt;span style=&quot;text-align: left;&quot;&gt;(SaAutoTask sat，&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;AutoTaskDto dto)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="300" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.233;entryY=-0.03;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aaeH6RGTp8yCNECdlGZ3-15" target="aaeH6RGTp8yCNECdlGZ3-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-20" value="传参变化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-130" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-21" value="请求保存NDVI结果" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1000" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-22" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;4️⃣&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="970" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-23" value="请求保存长势结果" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="970" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aaeH6RGTp8yCNECdlGZ3-24" target="aaeH6RGTp8yCNECdlGZ3-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-24" value="&lt;div style=&quot;text-align: left; font-size: 10px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;syncGrowthResult&lt;/font&gt;&lt;span style=&quot;&quot;&gt;(&lt;/span&gt;&lt;/b&gt;autoTask, autoTaskDto, jsonResult&lt;b&gt;)&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;向OSS同步影像文件&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1180" width="320" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aaeH6RGTp8yCNECdlGZ3-27" target="aaeH6RGTp8yCNECdlGZ3-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-27" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;handlePushingResult&lt;/font&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;(&lt;/font&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;autoTask, autoTaskDto,&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;jsonResult, preStepResult&lt;/span&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;)&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="1180" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-32" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;b&gt;boolean callSyncFiles(autoTask, absPath, minioPath)&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;向OSS发送同步请求，拉取长势图像到本地&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="865" y="1330" width="310" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-38" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;saveGrowthResult&lt;/font&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;(&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(autoTask,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; growthJsonData.getJSONObject(&quot;analyseResult&quot;),&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; process,&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; growthFileName&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; );&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1330" width="380" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-40" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;sendTiffRequestAndSaveResult(autoTask, process, tiffRequest)&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;发布NDVI/长势影像&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="1210" width="380" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-41" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;saveGrowthResult()&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;保存长势结果在DB&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="1330" width="380" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-42" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;updateDataCollectTaskStatus()&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;更新多光谱状态&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="1440" width="380" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-43" value="autoAbnormalPatrolTaskService.&#xa;                        genAbnormalPatrolTask(points, process.getFarmId(), process.getAutoTaskId()" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="1670" width="530" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeH6RGTp8yCNECdlGZ3-44" value="&lt;div style=&quot;text-align: left; font-size: 16px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#f500ed&quot;&gt;autoAbnormalPatrolTaskService&lt;/font&gt;.&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; genAbnormalPatrolTask(&lt;/b&gt;points, process.getFarmId(), process.getAutoTaskId()&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;生成异常点巡田任务&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1550" width="860" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
