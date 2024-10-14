@@ -182,11 +182,11 @@
         <mxCell id="r8hzpXox8yHPrLNPoh3o-81" value="注意，无论其为何种状态" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="800" y="460" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r8hzpXox8yHPrLNPoh3o-82" value="根据任务的TYPE，获得" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="r8hzpXox8yHPrLNPoh3o-82" value="根据任务的TYPE，获得任务处理器，处理任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="645" y="540" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r8hzpXox8yHPrLNPoh3o-83" value="autoTaskServiceFactory" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="970" y="590" width="160" height="60" as="geometry" />
+          <mxGeometry x="890" y="540" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
