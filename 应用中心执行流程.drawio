@@ -7,32 +7,32 @@
         <mxCell id="dO-Hujqm5VPbt1ioeclt-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dO-Hujqm5VPbt1ioeclt-1" target="dO-Hujqm5VPbt1ioeclt-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dO-Hujqm5VPbt1ioeclt-1" value="请求应用列表&lt;div&gt;&lt;font color=&quot;#24a201&quot;&gt;/queryAppList&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#24a201&quot;&gt;（用户id，平台id）&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dO-Hujqm5VPbt1ioeclt-1" value="请求应用列表&lt;div&gt;&lt;font color=&quot;#24a201&quot;&gt;/queryAppList&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#24a201&quot;&gt;传参：（用户id，平台id）&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="8" y="221" width="204" height="86" as="geometry" />
         </mxCell>
         <mxCell id="dO-Hujqm5VPbt1ioeclt-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dO-Hujqm5VPbt1ioeclt-2" target="dO-Hujqm5VPbt1ioeclt-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dO-Hujqm5VPbt1ioeclt-2" value="请求变更应用布局&lt;div&gt;&lt;font color=&quot;#24a201&quot;&gt;/saveAppList&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="8" y="499" width="200" height="40" as="geometry" />
+        <mxCell id="dO-Hujqm5VPbt1ioeclt-2" value="请求变更应用布局&lt;div&gt;&lt;font color=&quot;#24a201&quot;&gt;/saveAppList&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#24a201&quot;&gt;传参：(按布局分类的map)&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="8" y="473" width="200" height="93" as="geometry" />
         </mxCell>
         <mxCell id="dO-Hujqm5VPbt1ioeclt-4" value="app_info" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="703" y="406" width="140" height="180" as="geometry" />
+          <mxGeometry x="681" y="400.5" width="226" height="180" as="geometry" />
         </mxCell>
         <mxCell id="dO-Hujqm5VPbt1ioeclt-5" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="dO-Hujqm5VPbt1ioeclt-4">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
+          <mxGeometry y="30" width="226" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dO-Hujqm5VPbt1ioeclt-6" value="is_active 是否有效" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="dO-Hujqm5VPbt1ioeclt-4">
-          <mxGeometry y="60" width="140" height="30" as="geometry" />
+          <mxGeometry y="60" width="226" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dO-Hujqm5VPbt1ioeclt-7" value="app_name 应用名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="dO-Hujqm5VPbt1ioeclt-4">
-          <mxGeometry y="90" width="140" height="30" as="geometry" />
+          <mxGeometry y="90" width="226" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dO-Hujqm5VPbt1ioeclt-9" value="app_code 应用代码" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="dO-Hujqm5VPbt1ioeclt-4">
-          <mxGeometry y="120" width="140" height="30" as="geometry" />
+          <mxGeometry y="120" width="226" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dO-Hujqm5VPbt1ioeclt-8" value="app_icon_url 应用图标" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="dO-Hujqm5VPbt1ioeclt-4">
-          <mxGeometry y="150" width="140" height="30" as="geometry" />
+          <mxGeometry y="150" width="226" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dO-Hujqm5VPbt1ioeclt-10" value="app_layout_record" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="675" y="153" width="232" height="210" as="geometry" />
@@ -79,7 +79,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dO-Hujqm5VPbt1ioeclt-26" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;此应用名称和代码和AppEnum对应&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="845" y="511" width="187" height="26" as="geometry" />
+          <mxGeometry x="905" y="539" width="187" height="26" as="geometry" />
         </mxCell>
         <mxCell id="dO-Hujqm5VPbt1ioeclt-27" value="AppCenterMicroService" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="963.5" y="431" width="145" height="26" as="geometry" />
@@ -96,9 +96,6 @@
         <mxCell id="dO-Hujqm5VPbt1ioeclt-32" value="传入Map，按照是否是homePage分类" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="259" y="397" width="321" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="dO-Hujqm5VPbt1ioeclt-34" value="App类型用表还是用Enum视&lt;div&gt;后续功能规模&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="1049" y="503.5" width="167" height="41" as="geometry" />
-        </mxCell>
         <mxCell id="dO-Hujqm5VPbt1ioeclt-35" value="用户id和平台id查询&lt;div&gt;出所有app，组成appList&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="259" y="468" width="321" height="45" as="geometry" />
         </mxCell>
@@ -107,6 +104,12 @@
         </mxCell>
         <mxCell id="dO-Hujqm5VPbt1ioeclt-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.013;entryY=0.065;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dO-Hujqm5VPbt1ioeclt-36" target="dO-Hujqm5VPbt1ioeclt-12">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dO-Hujqm5VPbt1ioeclt-40" value="Tables" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="767.5" y="105" width="53" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dO-Hujqm5VPbt1ioeclt-41" value="APIs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="92" y="105" width="43" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
