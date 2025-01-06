@@ -28,6 +28,12 @@
         <mxCell id="Cx2d999oBa-6Gh2xM0pa-8" value="任务id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="370" width="80" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-10" value="这个表请求联农宝（屈鹏）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="225" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-11" value="这个表请求联农宝&lt;div&gt;（杨婷婷）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="380" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
