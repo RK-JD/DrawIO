@@ -16,6 +16,16 @@
         <mxCell id="Cx2d999oBa-6Gh2xM0pa-3" value="机手id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="220" width="80" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Cx2d999oBa-6Gh2xM0pa-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Cx2d999oBa-6Gh2xM0pa-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Cx2d999oBa-6Gh2xM0pa-5" value="工单文件下载列表" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="330" y="360" width="120" height="60" as="geometry" />
         </mxCell>
@@ -28,11 +38,47 @@
         <mxCell id="Cx2d999oBa-6Gh2xM0pa-8" value="任务id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="370" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Cx2d999oBa-6Gh2xM0pa-10" value="这个表请求联农宝（屈鹏）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="520" y="225" width="120" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="Cx2d999oBa-6Gh2xM0pa-11" value="这个表请求联农宝&lt;div&gt;（杨婷婷）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="520" y="380" width="120" height="30" as="geometry" />
+          <mxGeometry x="660" y="410" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cx2d999oBa-6Gh2xM0pa-16" target="Cx2d999oBa-6Gh2xM0pa-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cx2d999oBa-6Gh2xM0pa-16" target="Cx2d999oBa-6Gh2xM0pa-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-16" value="文件id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="520" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Cx2d999oBa-6Gh2xM0pa-17" target="Cx2d999oBa-6Gh2xM0pa-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-17" value="请求倍率图" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="330" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-19" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;联农宝&lt;/span&gt;&lt;div style=&quot;font-weight: 700;&quot;&gt;获取文件id和fileName&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="540" y="340" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-22" value="这个表请求联农宝（task-manager&lt;div&gt;屈鹏）&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="540" y="195" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Cx2d999oBa-6Gh2xM0pa-1" target="Cx2d999oBa-6Gh2xM0pa-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-25" value="COS" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontStyle=1;strokeWidth=2;perimeterSpacing=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="790" y="345" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-26" value="&lt;b&gt;GIS&lt;/b&gt;&lt;div&gt;&lt;b&gt;生成倍率图后存在COS&lt;/b&gt;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="500" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-28" value="前端还会对文件进行下载和重入&lt;div&gt;（重新生成和重新下载）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="305" y="630" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-30" value="这个状态由farm_fertilizer控制" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="680" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Cx2d999oBa-6Gh2xM0pa-26" target="Cx2d999oBa-6Gh2xM0pa-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
