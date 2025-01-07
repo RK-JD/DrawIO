@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-79" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="617" width="337" height="245" as="geometry" />
+        </mxCell>
         <mxCell id="Cx2d999oBa-6Gh2xM0pa-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cx2d999oBa-6Gh2xM0pa-1" target="Cx2d999oBa-6Gh2xM0pa-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -96,19 +99,19 @@
           <mxGeometry x="190" y="162" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Cx2d999oBa-6Gh2xM0pa-38" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;1️⃣&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1153" y="247" width="60" height="30" as="geometry" />
+          <mxGeometry x="1307" y="249" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Cx2d999oBa-6Gh2xM0pa-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cx2d999oBa-6Gh2xM0pa-39" target="Cx2d999oBa-6Gh2xM0pa-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Cx2d999oBa-6Gh2xM0pa-39" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;生成处方&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1264" y="232" width="120" height="60" as="geometry" />
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-39" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;(已)生成处方&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;status:0&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1418" y="234" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Cx2d999oBa-6Gh2xM0pa-40" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;下载记录状态流转&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1229" y="151" width="307" height="30" as="geometry" />
+          <mxGeometry x="1383" y="153" width="307" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Cx2d999oBa-6Gh2xM0pa-41" value="找到了文件记录，此时只有倍率图按钮" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1411" y="247" width="229" height="30" as="geometry" />
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-41" value="找到了文件记录，此时只有倍率图按钮，设置好倍率触发倍率图" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1565" y="249" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Cx2d999oBa-6Gh2xM0pa-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Cx2d999oBa-6Gh2xM0pa-42" target="Cx2d999oBa-6Gh2xM0pa-46">
           <mxGeometry relative="1" as="geometry" />
@@ -116,38 +119,35 @@
         <mxCell id="Cx2d999oBa-6Gh2xM0pa-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cx2d999oBa-6Gh2xM0pa-42" target="Cx2d999oBa-6Gh2xM0pa-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Cx2d999oBa-6Gh2xM0pa-42" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;生成中&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="1264" y="342" width="120" height="60" as="geometry" />
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-42" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;生成中&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;status:1&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1418" y="344" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Cx2d999oBa-6Gh2xM0pa-43" value="前端向后端请求生成倍率，后端向gis提交，此时gis处理的过程中显示生成中，超时时间2分钟" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1416" y="361" width="277" height="30" as="geometry" />
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-43" value="前端向后端请求生成倍率，后端向gis提交，此时gis处理的过程中显示生成中，超时时间2分钟" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1116" y="362" width="277" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Cx2d999oBa-6Gh2xM0pa-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cx2d999oBa-6Gh2xM0pa-46" target="Cx2d999oBa-6Gh2xM0pa-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Cx2d999oBa-6Gh2xM0pa-46" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;生成成功&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1150" y="530" width="120" height="60" as="geometry" />
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-46" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;生成成功&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;status:2&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1304" y="532" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Cx2d999oBa-6Gh2xM0pa-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cx2d999oBa-6Gh2xM0pa-48" target="Cx2d999oBa-6Gh2xM0pa-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Cx2d999oBa-6Gh2xM0pa-48" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;生成失败&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1392" y="530" width="120" height="60" as="geometry" />
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-48" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;生成失败&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;status:-1&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1546" y="532" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Cx2d999oBa-6Gh2xM0pa-51" value="前端自动进行下载&lt;br&gt;根据dirId和fileId去COS寻找" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="989" y="545" width="149" height="30" as="geometry" />
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-51" value="前端自动进行下载&lt;br&gt;根据dirId和fileId去COS寻找" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1127" y="545" width="149" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Cx2d999oBa-6Gh2xM0pa-52" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;下载成功&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1063" y="779" width="120" height="60" as="geometry" />
+          <mxGeometry x="1217" y="781" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Cx2d999oBa-6Gh2xM0pa-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cx2d999oBa-6Gh2xM0pa-53" target="Cx2d999oBa-6Gh2xM0pa-66">
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cx2d999oBa-6Gh2xM0pa-53" target="Cx2d999oBa-6Gh2xM0pa-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Cx2d999oBa-6Gh2xM0pa-53" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;下载失败&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1229" y="781" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Cx2d999oBa-6Gh2xM0pa-55" value="前端将其保存在DJI内存卡" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="902" y="796" width="149" height="30" as="geometry" />
+          <mxGeometry x="1383" y="783" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Cx2d999oBa-6Gh2xM0pa-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cx2d999oBa-6Gh2xM0pa-57" target="Cx2d999oBa-6Gh2xM0pa-52">
           <mxGeometry relative="1" as="geometry" />
@@ -156,16 +156,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Cx2d999oBa-6Gh2xM0pa-57" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;下载中&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="635" width="120" height="60" as="geometry" />
+          <mxGeometry x="1304" y="637" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Cx2d999oBa-6Gh2xM0pa-61" value="应该只有一个文件，所以状态控制怎么做" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="986" y="654" width="149" height="30" as="geometry" />
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cx2d999oBa-6Gh2xM0pa-66" target="Cx2d999oBa-6Gh2xM0pa-42">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Cx2d999oBa-6Gh2xM0pa-66" value="&lt;span style=&quot;font-size: 17px; font-weight: 700;&quot;&gt;重入接口&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="1520" y="640" width="120" height="60" as="geometry" />
+          <mxGeometry x="1674" y="642" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Cx2d999oBa-6Gh2xM0pa-69" value="传入的是文件id进行重入&lt;div&gt;需要判断是下载失败还是生成失败&lt;/div&gt;&lt;div&gt;分别进行触发&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="654" width="225" height="30" as="geometry" />
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-75" value="由于是传入的文件id进行重入，直接向gis重新请求倍率" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1834" y="672" width="225" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-76" value="知道文件id和cosDirId的前端，自行发起重试下载" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1536" y="747" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-80" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;前端控制下载成功与否状态&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;后台只记录生成成功的文件路径&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="918" y="710" width="270" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
