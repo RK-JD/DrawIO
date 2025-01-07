@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="26.0.2">
   <diagram name="第 1 页" id="-bFmWnIOgYskP8WVXcl6">
-    <mxGraphModel dx="2049" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="1241" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-108" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1063.5" y="321" width="829" height="609" as="geometry" />
+        </mxCell>
         <mxCell id="Cx2d999oBa-6Gh2xM0pa-79" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="1200" y="617" width="337" height="245" as="geometry" />
         </mxCell>
@@ -104,14 +107,11 @@
         <mxCell id="Cx2d999oBa-6Gh2xM0pa-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cx2d999oBa-6Gh2xM0pa-39" target="Cx2d999oBa-6Gh2xM0pa-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Cx2d999oBa-6Gh2xM0pa-39" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;(已)生成处方&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-39" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;(已)生成处方&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;status:0&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1418" y="234" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Cx2d999oBa-6Gh2xM0pa-40" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;下载记录状态流转&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1383" y="153" width="307" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Cx2d999oBa-6Gh2xM0pa-41" value="找到了文件记录，此时只有倍率图按钮，设置好倍率触发倍率图" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="1565" y="249" width="340" height="30" as="geometry" />
+          <mxGeometry x="1083" y="285" width="307" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Cx2d999oBa-6Gh2xM0pa-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Cx2d999oBa-6Gh2xM0pa-42" target="Cx2d999oBa-6Gh2xM0pa-46">
           <mxGeometry relative="1" as="geometry" />
@@ -165,16 +165,63 @@
           <mxGeometry x="1674" y="642" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Cx2d999oBa-6Gh2xM0pa-75" value="由于是传入的文件id进行重入，直接向gis重新请求倍率" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="1834" y="672" width="225" height="30" as="geometry" />
+          <mxGeometry x="1639" y="710" width="225" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Cx2d999oBa-6Gh2xM0pa-76" value="知道文件id和cosDirId的前端，自行发起重试下载" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="1536" y="747" width="240" height="30" as="geometry" />
+          <mxGeometry x="1537" y="798" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Cx2d999oBa-6Gh2xM0pa-80" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;前端控制下载成功与否状态&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;后台只记录生成成功的文件路径&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="922" y="740" width="270" height="55" as="geometry" />
+          <mxGeometry x="1229" y="869" width="270" height="55" as="geometry" />
         </mxCell>
         <mxCell id="Cx2d999oBa-6Gh2xM0pa-82" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;前端控制&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1200" y="638" width="90" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-83" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;问题：&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;原本链路的taskId和新的工单id有何区别？&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;下载进度怎么控制？&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2072" y="914" width="431" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cx2d999oBa-6Gh2xM0pa-85" target="Cx2d999oBa-6Gh2xM0pa-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-85" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;查询工单对应的文件列表&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1418" y="-106" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-88" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;order_file_info&lt;/font&gt;&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1688" y="-6" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Cx2d999oBa-6Gh2xM0pa-90" target="Cx2d999oBa-6Gh2xM0pa-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cx2d999oBa-6Gh2xM0pa-90" target="Cx2d999oBa-6Gh2xM0pa-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cx2d999oBa-6Gh2xM0pa-90" target="Cx2d999oBa-6Gh2xM0pa-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-103" value="&lt;span style=&quot;font-size: 15px; font-weight: 700;&quot;&gt;有，构建文件列表&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Cx2d999oBa-6Gh2xM0pa-102">
+          <mxGeometry x="0.0168" y="3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-90" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;先查本地库&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1418" y="4" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cx2d999oBa-6Gh2xM0pa-94" target="Cx2d999oBa-6Gh2xM0pa-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-94" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;查联服宝&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1559" y="118" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Cx2d999oBa-6Gh2xM0pa-94" target="Cx2d999oBa-6Gh2xM0pa-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-105" value="&lt;span style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 15px; font-weight: 700;&quot;&gt;查到后&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 15px; font-weight: 700;&quot;&gt;落库order_file_info&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1766.0042857142857" y="89.00285714285734" width="162" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-106" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;联农宝&lt;/span&gt;&lt;div style=&quot;font-weight: 700;&quot;&gt;获取文件id和fileName&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1806" y="178" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=60;entryPerimeter=0;" edge="1" parent="1" source="Cx2d999oBa-6Gh2xM0pa-94" target="Cx2d999oBa-6Gh2xM0pa-106">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
