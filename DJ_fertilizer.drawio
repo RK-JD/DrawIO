@@ -71,6 +71,9 @@
         <mxCell id="Cx2d999oBa-6Gh2xM0pa-26" value="&lt;b&gt;GIS&lt;/b&gt;&lt;div&gt;&lt;b&gt;生成倍率图后存在COS&lt;/b&gt;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="500" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cx2d999oBa-6Gh2xM0pa-28" target="Cx2d999oBa-6Gh2xM0pa-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Cx2d999oBa-6Gh2xM0pa-28" value="前端还会对文件进行下载和重入&lt;div&gt;（重新生成和重新下载）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="305" y="630" width="170" height="60" as="geometry" />
         </mxCell>
@@ -78,6 +81,9 @@
           <mxGeometry x="490" y="680" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Cx2d999oBa-6Gh2xM0pa-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Cx2d999oBa-6Gh2xM0pa-26" target="Cx2d999oBa-6Gh2xM0pa-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx2d999oBa-6Gh2xM0pa-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.855;entryY=1;entryDx=0;entryDy=-4.35;entryPerimeter=0;" edge="1" parent="1" source="Cx2d999oBa-6Gh2xM0pa-28" target="Cx2d999oBa-6Gh2xM0pa-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
