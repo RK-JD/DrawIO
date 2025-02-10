@@ -30,7 +30,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AbXdpTjg0EbsxotE9Cbp-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AbXdpTjg0EbsxotE9Cbp-30" target="AbXdpTjg0EbsxotE9Cbp-68">
+        <mxCell id="AbXdpTjg0EbsxotE9Cbp-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="AbXdpTjg0EbsxotE9Cbp-30" target="AbXdpTjg0EbsxotE9Cbp-68">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AbXdpTjg0EbsxotE9Cbp-72" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AbXdpTjg0EbsxotE9Cbp-71">
