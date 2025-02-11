@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="no1zi2bx8PMHZ27dwiWA-37" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="376" width="838" height="854" as="geometry" />
+        </mxCell>
         <mxCell id="ocFA7NBdoYoIx3zx9iRh-2" value="分页查询农事分享" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;strokeWidth=0;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="278.5" y="423" width="165" height="30" as="geometry" />
         </mxCell>
@@ -66,32 +69,129 @@
         <mxCell id="no1zi2bx8PMHZ27dwiWA-10" value="&lt;b&gt;用户对某条记录评论&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1152" y="637" width="139" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="no1zi2bx8PMHZ27dwiWA-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="no1zi2bx8PMHZ27dwiWA-14" target="no1zi2bx8PMHZ27dwiWA-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="no1zi2bx8PMHZ27dwiWA-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="no1zi2bx8PMHZ27dwiWA-14" target="no1zi2bx8PMHZ27dwiWA-19">
+        <mxCell id="no1zi2bx8PMHZ27dwiWA-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="no1zi2bx8PMHZ27dwiWA-14" target="no1zi2bx8PMHZ27dwiWA-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="no1zi2bx8PMHZ27dwiWA-14" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;点赞&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1854" y="208" width="139" height="74" as="geometry" />
+          <mxGeometry x="2019.5" y="87" width="139" height="74" as="geometry" />
         </mxCell>
         <mxCell id="no1zi2bx8PMHZ27dwiWA-16" value="&lt;b&gt;查询对应的田间秀记录&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1727" y="372" width="142.5" height="66" as="geometry" />
+          <mxGeometry x="1745" y="413" width="142.5" height="66" as="geometry" />
         </mxCell>
         <mxCell id="no1zi2bx8PMHZ27dwiWA-19" value="&lt;b&gt;查询点赞记录&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1983" y="372" width="142.5" height="66" as="geometry" />
+          <mxGeometry x="1972" y="413" width="142.5" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="no1zi2bx8PMHZ27dwiWA-21" value="此用户是否已经点赞过此记录？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1798.3700000000001" y="511" width="250.25" height="100" as="geometry" />
+        <mxCell id="no1zi2bx8PMHZ27dwiWA-21" value="用户是取消还是点赞" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1919" y="589" width="250.25" height="100" as="geometry" />
         </mxCell>
         <mxCell id="no1zi2bx8PMHZ27dwiWA-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="no1zi2bx8PMHZ27dwiWA-19" target="no1zi2bx8PMHZ27dwiWA-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="no1zi2bx8PMHZ27dwiWA-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="no1zi2bx8PMHZ27dwiWA-24" target="no1zi2bx8PMHZ27dwiWA-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="no1zi2bx8PMHZ27dwiWA-30" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="no1zi2bx8PMHZ27dwiWA-29">
+          <mxGeometry x="-0.2294" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="no1zi2bx8PMHZ27dwiWA-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="no1zi2bx8PMHZ27dwiWA-24" target="no1zi2bx8PMHZ27dwiWA-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="no1zi2bx8PMHZ27dwiWA-36" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="no1zi2bx8PMHZ27dwiWA-35">
+          <mxGeometry x="0.0071" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="no1zi2bx8PMHZ27dwiWA-24" value="该记录的点赞数是否大于0？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1798.3700000000001" y="692" width="250.25" height="100" as="geometry" />
+          <mxGeometry x="1919" y="770" width="250.25" height="100" as="geometry" />
         </mxCell>
         <mxCell id="no1zi2bx8PMHZ27dwiWA-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="no1zi2bx8PMHZ27dwiWA-21" target="no1zi2bx8PMHZ27dwiWA-24">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="no1zi2bx8PMHZ27dwiWA-45" value="取消" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="no1zi2bx8PMHZ27dwiWA-25">
+          <mxGeometry x="-0.2346" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="no1zi2bx8PMHZ27dwiWA-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="no1zi2bx8PMHZ27dwiWA-28" target="no1zi2bx8PMHZ27dwiWA-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="no1zi2bx8PMHZ27dwiWA-28" value="&lt;b&gt;取消点赞&lt;/b&gt;&lt;div&gt;&lt;b&gt;对已存在的记录逻辑删除&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1972.88" y="947" width="142.5" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="no1zi2bx8PMHZ27dwiWA-34" value="&lt;b&gt;非法操作，返回&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2277.38" y="787" width="142.5" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="no1zi2bx8PMHZ27dwiWA-38" value="&lt;i&gt;&lt;font&gt;Redisson Lock&lt;/font&gt;&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1793" y="343" width="151" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="no1zi2bx8PMHZ27dwiWA-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="no1zi2bx8PMHZ27dwiWA-40" target="no1zi2bx8PMHZ27dwiWA-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="no1zi2bx8PMHZ27dwiWA-75" value="成功，最多持有500ms" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="no1zi2bx8PMHZ27dwiWA-42">
+          <mxGeometry x="-0.0317" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="no1zi2bx8PMHZ27dwiWA-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="no1zi2bx8PMHZ27dwiWA-40" target="no1zi2bx8PMHZ27dwiWA-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="no1zi2bx8PMHZ27dwiWA-76" value="失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="no1zi2bx8PMHZ27dwiWA-67">
+          <mxGeometry x="-0.0958" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="no1zi2bx8PMHZ27dwiWA-40" value="&lt;b&gt;尝试获取锁&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2017.75" y="229" width="142.5" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="no1zi2bx8PMHZ27dwiWA-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="no1zi2bx8PMHZ27dwiWA-52" target="no1zi2bx8PMHZ27dwiWA-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="no1zi2bx8PMHZ27dwiWA-58" value="存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="no1zi2bx8PMHZ27dwiWA-56">
+          <mxGeometry x="-0.2407" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="no1zi2bx8PMHZ27dwiWA-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="no1zi2bx8PMHZ27dwiWA-52" target="no1zi2bx8PMHZ27dwiWA-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="no1zi2bx8PMHZ27dwiWA-59" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="no1zi2bx8PMHZ27dwiWA-57">
+          <mxGeometry x="-0.1305" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="no1zi2bx8PMHZ27dwiWA-52" value="查询的点赞记录是否存在" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2250" y="589" width="197.25" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="no1zi2bx8PMHZ27dwiWA-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="no1zi2bx8PMHZ27dwiWA-21" target="no1zi2bx8PMHZ27dwiWA-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="no1zi2bx8PMHZ27dwiWA-54" value="点赞" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="no1zi2bx8PMHZ27dwiWA-53">
+          <mxGeometry x="0.1015" y="1" relative="1" as="geometry">
+            <mxPoint x="-7" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="no1zi2bx8PMHZ27dwiWA-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="no1zi2bx8PMHZ27dwiWA-55" target="no1zi2bx8PMHZ27dwiWA-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="no1zi2bx8PMHZ27dwiWA-55" value="&lt;b&gt;用户点赞&lt;/b&gt;&lt;div&gt;&lt;b&gt;新插入一条点赞记录&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2277.38" y="947" width="142.5" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="no1zi2bx8PMHZ27dwiWA-66" value="&lt;b&gt;等待，最长5000ms&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2250" y="229" width="142.5" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="no1zi2bx8PMHZ27dwiWA-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="no1zi2bx8PMHZ27dwiWA-69" target="no1zi2bx8PMHZ27dwiWA-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="no1zi2bx8PMHZ27dwiWA-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="no1zi2bx8PMHZ27dwiWA-69" target="no1zi2bx8PMHZ27dwiWA-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="no1zi2bx8PMHZ27dwiWA-69" value="&lt;b&gt;更新田间秀点赞计数&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1972.88" y="1068" width="142.5" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="no1zi2bx8PMHZ27dwiWA-72" value="&lt;b&gt;释放锁������&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1972" y="1157" width="142.5" height="66" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
