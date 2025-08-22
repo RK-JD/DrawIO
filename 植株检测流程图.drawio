@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.0">
   <diagram name="第 1 页" id="HEAbph3sUWfqRwcuv7hl">
-    <mxGraphModel dx="2993" dy="2738" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4474" dy="3617" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -214,7 +214,7 @@
           <mxGeometry x="130" y="-60" width="175" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rphOo0Vk9jjCKU_iD-gh-50" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-153" y="98" width="16" height="460" as="geometry" />
+          <mxGeometry x="-153" y="98" width="16" height="304" as="geometry" />
         </mxCell>
         <mxCell id="rphOo0Vk9jjCKU_iD-gh-51" value="&lt;span&gt;样品检测&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-175" y="39" width="175" height="30" as="geometry" />
@@ -239,29 +239,29 @@
         </mxCell>
         <mxCell id="rphOo0Vk9jjCKU_iD-gh-56" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-137" y="237" as="sourcePoint" />
-            <mxPoint x="-137" y="276" as="targetPoint" />
+            <mxPoint x="-137" y="323" as="sourcePoint" />
+            <mxPoint x="-137" y="362" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-94" y="237" />
-              <mxPoint x="-94" y="276" />
+              <mxPoint x="-94" y="323" />
+              <mxPoint x="-94" y="362" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rphOo0Vk9jjCKU_iD-gh-57" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;检测、审核&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="205" width="175" height="30" as="geometry" />
+        <mxCell id="rphOo0Vk9jjCKU_iD-gh-57" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;审核、导出检测报告&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-141" y="292" width="175" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rphOo0Vk9jjCKU_iD-gh-58" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="rphOo0Vk9jjCKU_iD-gh-60" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-137" y="337" as="sourcePoint" />
-            <mxPoint x="-137" y="376" as="targetPoint" />
+            <mxPoint x="-137" y="235" as="sourcePoint" />
+            <mxPoint x="-137" y="274" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-94" y="337" />
-              <mxPoint x="-94" y="376" />
+              <mxPoint x="-94" y="235" />
+              <mxPoint x="-94" y="274" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rphOo0Vk9jjCKU_iD-gh-59" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;检测、审核&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="305" width="175" height="30" as="geometry" />
+        <mxCell id="rphOo0Vk9jjCKU_iD-gh-61" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;检测、&lt;/span&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;导入检测结果&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-141" y="201" width="175" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
