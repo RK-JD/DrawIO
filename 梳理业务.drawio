@@ -1,9 +1,45 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="29.2.2">
   <diagram name="第 1 页" id="1F4EbvnvjYPx-CGAgykr">
-    <mxGraphModel>
+    <mxGraphModel dx="1042" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PsxmM2gvCjQdAiwAqLMG-6" edge="1" parent="1" source="PsxmM2gvCjQdAiwAqLMG-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PsxmM2gvCjQdAiwAqLMG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PsxmM2gvCjQdAiwAqLMG-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&amp;nbsp;定时任务启动" vertex="1">
+          <mxGeometry height="60" width="120" x="249" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="PsxmM2gvCjQdAiwAqLMG-8" edge="1" parent="1" source="PsxmM2gvCjQdAiwAqLMG-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PsxmM2gvCjQdAiwAqLMG-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PsxmM2gvCjQdAiwAqLMG-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="过去五天内是否触发过提醒" vertex="1">
+          <mxGeometry height="80" width="210" x="204" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="PsxmM2gvCjQdAiwAqLMG-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="12月2号触发：检索27、28、29、30、1&lt;br&gt;五天的当天内是否有提醒被触发" vertex="1">
+          <mxGeometry height="30" width="290" x="430" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="PsxmM2gvCjQdAiwAqLMG-11" edge="1" parent="1" source="PsxmM2gvCjQdAiwAqLMG-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PsxmM2gvCjQdAiwAqLMG-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PsxmM2gvCjQdAiwAqLMG-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="过去五天内是否满足降雨条件" vertex="1">
+          <mxGeometry height="80" width="210" x="204" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="PsxmM2gvCjQdAiwAqLMG-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="12月2号触发：检索27、28、29、30、1&lt;br&gt;五天的降雨是否大于 N mm&lt;br&gt;N为可配置" vertex="1">
+          <mxGeometry height="30" width="290" x="430" y="655" as="geometry" />
+        </mxCell>
+        <mxCell id="PsxmM2gvCjQdAiwAqLMG-15" edge="1" parent="1" source="PsxmM2gvCjQdAiwAqLMG-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PsxmM2gvCjQdAiwAqLMG-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PsxmM2gvCjQdAiwAqLMG-10" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="过去五天内是否有任意种植季的&lt;br&gt;生育期处在&lt;br&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Arial Normal&amp;quot;, Arial, sans-serif; font-size: 14px; text-align: left;&quot;&gt;「抽穗期」至「成熟期」区间内&lt;/span&gt;" vertex="1">
+          <mxGeometry height="130" width="350" x="134" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="PsxmM2gvCjQdAiwAqLMG-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="发送模板短信" vertex="1">
+          <mxGeometry height="60" width="120" x="249" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="PsxmM2gvCjQdAiwAqLMG-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="给中联峨桥农场的&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Arial Normal&amp;quot;, Arial, sans-serif; font-size: 14px; text-align: left;&quot;&gt;系统管理员、农场主、农艺师发送提醒短信&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="290" x="414" y="975" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
